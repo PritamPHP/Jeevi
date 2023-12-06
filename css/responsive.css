@@ -1,0 +1,169 @@
+@media only screen and (max-width:1599px) {
+.c-header-bottom .container {max-width: 1370px;}
+.c-header-bottom .navbar-nav > li {margin-right:15px;}
+.c-benefit-tab .nav-pills li {padding: 0 10px;}
+}
+@media only screen and (max-width:1399px) {
+.c-header-bottom .container {max-width: 1170px;}
+.c-header-bottom .navbar-nav > li > a {font-size: 16px;}
+.c-header-bottom {padding: 20px 0;}
+.c-footer-top h3 {font-size: 30px;}
+.c-footer-nav ul li a {font-size: 16px;line-height: normal;}
+.cp-ndis-s-box {padding-left: 80px;}
+.cp-ndis-s-box span {font-size:54px;}
+.cp-ndis-s-box h4 {font-size: 20px;}
+}	
+@media only screen and (max-width:1199px) {
+.c-header-bottom .navbar-nav > li > a {font-size:14px;}
+.c-benefit-tab .nav-pills li button {padding: 15px 30px;}
+.c-header-bottom .navbar-nav > li {margin-right: 10px;}
+.c-benefit-tab-con h3 {font-size: 23px;}
+.c-benefit-tab-con-in {padding: 40px 50px;}
+.c-benefit-tab-con p {font-size: 16px;}
+.c-our-vision-con {padding: 40px 30px;}
+.c-our-vision-con p {font-size: 16px;line-height: 24px;}
+.c-about-w {padding: 60px 0;}
+.c-team-box {padding:0px;}
+.c-team-box-in h3 {font-size: 26px;}
+.c-team-box-in h4 {font-size: 15px;}
+.c-team-box-in span ,.c-team-box-in span img {width: 140px;height: 140px;}
+.c-why-box h3 {font-size: 20px;line-height: normal;}
+.c-support-box h3 {font-size: 18px;}
+.c-work-box h3 {font-size: 17px;}
+.c-footer-top h3 {font-size: 23px;}
+.c-footer-top .c-btn-1 {font-size: 25px;padding: 18px 35px;}
+.c-footer-bottom h3 {font-size: 16px;}
+.c-footer-top-info li ,.c-footer-top-info li a {font-size: 16px;}
+.cp-team-con h2 {font-size: 40px;}
+.cp-team-w .nav-tabs {padding: 0px;}
+.cp-ndis-s-4 .col-lg-3{width: 33.333%;margin-bottom: 15px;}
+.cp-ndis-s-list .cp-ndis-s-list-con h3 {font-size: 24px;}
+.c-inner-banner-w h1 {font-size: 33px;}
+.cp-servicve-3-con .c-btn-1 {font-size: 24px;}
+.cp-contact-info {padding: 40px 0}
+.cp-contact-info-in .col-lg-10 {width: 100%;}
+.cp-contact-info-h {margin-bottom: 40px;}
+.cp-contact-form {padding: 40px 0;}
+
+}
+	
+@media only screen and (max-width:991px) {
+.c-header-bottom .container {position: relative;}
+.c-header-bottom .navbar-toggler {box-shadow: none;border: none;position: static;width: 45px;height: 45px;border-radius: 50%;background: #04d9c4;margin-left: auto;}
+.c-header-bottom .navbar-toggler i {font-size: 20px;color: #023061;}
+.c-header-bottom .navbar-nav > li {border-bottom: 1px solid #383737;}
+.c-header-bottom .navbar-nav li:last-child {border:  none;} 
+.submenu-button:after {content:"\f055";font-family: 'FontAwesome';display: block;}
+.submenu-button {display: block;}
+.c-header-bottom ul li ul {position: static;width: 100%;}
+.submenu-button.icon-change:after {content:"\f056";}
+.c-header-bottom ul li ul.active {display: block;}
+.c-header-bottom .navbar-nav li {padding: 0;}
+.c-header-bottom .navbar-nav > li {margin: 0;}
+.c-nav-w .navbar-collapse {position: absolute;right: 0;width: 300px;top: 60px;z-index: 999;background-color:#7befe4;}
+.c-header-bottom .navbar-nav > li > a:after {display: none;}
+.c-header-bottom .navbar-nav > li > a {width: 100%;display: block;padding: 10px;}
+.c-according-w .col-md-8 ,.c-according-w .col-md-4 {width: 100%;}
+.c-according-w h2 {left:0px;}
+.c-benefit-hw h2 {font-size: 40px;}
+.c-benefit-tab .nav-pills li {width:50%;flex:0 0 auto;}
+.c-benefit-tab .nav-pills li button {margin:0;margin-bottom: 20px;width: 100%;}
+.c-benefit-tab .nav-pills li:last-child ,.c-benefit-tab .nav-pills li:first-child {padding: 0 10px;}
+.c-benefit-tab-con .col-md-6 {width: 100%;}
+.c-benefit-tab-con .col-md-6:first-child {order:2;}
+.c-benefit-tab-con .col-md-6:last-child {order:1;}
+.c-according-img {position: static;text-align: center;}
+.c-according-img img {position: static;width: 300px;display: inline-block;}
+.c-according-w h2 {font-size: 25px;line-height: normal;}
+.c-according-con {margin-top:30px;}
+.c-about-w .col-md-6 {width: 100%;}
+.c-our-vision-con h3 {font-size: 35px;margin-bottom: 20px;}
+.c-core-value-name ,.c-core-value-con-1 ,.c-core-value-con-2 ,.c-core-value-con-3 {width: 100%;}
+.c-core-value-name {justify-content: center;}
+.c-team-box {margin-bottom:20px;}
+.c-footer-top h3 {text-align: center;margin-bottom:20px;}
+.c-footer-top {padding: 40px 0;}
+.c-why-choose-w {padding: 50px 0;}
+.c-why-choose-w .c-benefit-w {margin-top: 0;}
+.c-why-choose-w .c-why-w {padding-bottom: 20px;}
+.cp-team-w {padding: 50px 0;}
+.cp-team-w .nav-tabs li button {border: 2px solid #00164a;padding: 15px;border-radius: 0;width: 100%;}
+.cp-team-w .nav-tabs li button.active {background:#04d9c4;border: 2px solid #00164a;}
+.cp-team-w .nav-tabs {margin-bottom: 40px;}
+.cp-team-w .float-left {width: 100%;display: block;float: none;}
+.cp-ndis-s-4 .col-lg-3{width: 50%;margin-bottom: 15px;}
+.cp-servicve-3-in .col-md-4 {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
+.cp-servicve-3-in .col-md-8 {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;}
+.cp-servicve-3-in .col-md-4 ,.cp-servicve-3-in .col-md-8 {width: 100%;}
+.cp-servicve-3-img {text-align: center;}
+.cp-servicve-1-con p {padding: 0;margin-top: 20px;}
+.cp-servicve-2 {padding: 40px 0;}
+.cp-servicve-2 .row .col-md-6:first-child {order: 2;}
+.cp-servicve-2 .row .col-md-6:last-child {order:1;}
+.cp-servicve-2-con {margin-top:20px;}
+.cp-contact-info-h h2 {font-size: 30px;}
+.cp-contact-info-box {margin-bottom: 15px;}
+.cp-contact-info-in .justify-content-center {justify-content:flex-start !important;}
+.c-retreats-2-con h3 {font-size: 20px;}
+.c-retreats-2-con p {line-height: 24px;font-size: 16px;}
+.c-retreats-3-hw h3 {font-size: 28px;}
+.c-retreats-3 p ,.c-retreats-3 li  {line-height: 24px;font-size: 16px;}
+}
+@media only screen and (max-width:767px) {
+.c-header-bottom .col-md-3  {max-width: 50%;}	
+.c-header-bottom .col-md-9 {max-width: 50%;}
+.c-banner-w {display: none;}
+.c-banner-m {display: block;}
+.c-according-w {margin-top: 40px;}
+.c-prevention-w h2 {font-size: 22px;padding: 20px 0;margin-bottom: 20px;}
+.c-benefit-tab .nav-pills li {width: 100%;}
+.c-heading-1 {margin-bottom: 40px;}
+.c-about-con h3 {font-size: 36px;margin-bottom: 22px;}
+.c-team-box-in:hover {transform: scale(1);}
+.c-team-in {padding-bottom: 40px;}
+.c-team-in .text-center {margin-top: 10px;}
+.c-emegency-hw {padding: 40px 20px;}
+.c-emegency-hw h3 {font-size: 36px;}
+.c-work-hw h3 {margin-bottom:30px;}
+.c-footer-about {margin-bottom: 20px;}
+.c-footer-nav {margin-bottom: 20px;}
+.c-footer-coppy {display: block;text-align: center;}
+.c-poweredby-img {margin-top: 10px;}
+.c-footer-nav ul li {line-height:100%;}
+.c-core-value-w {padding-top:40px;}
+.c-benefit-tab-con-in {padding: 30px;}
+.c-benefit-tab-con-box:after {display: none;}
+.c-nav-w .navbar-collapse {top:65px;}
+.c-benefit-hw h2 {font-size: 32px;}
+.c-inner-banner-w h1 {font-size: 24px;}
+.c-inner-banner-w {padding: 30px 0;}
+.cp-core-value-w {padding: 40px 0;}
+.cp-ndis-s-1 {padding: 40px 0;}
+.cp-mission-w {padding:40px 0;}
+.cp-mission-w .c-our-vision-w {margin-top:40px;}
+.cp-mission-w .c-according-w {margin-top:40px;}
+.cp-ndis-s-4 .col-lg-3{width: 100%;margin-bottom: 15px;}
+.cp-emergency-w {margin:00px 0 40px;}
+.cp-emergency-w .c-support-w {margin-bottom: 20px;}
+.cp-emergency-w .c-emegency-con-1 {padding: 0;}
+.cp-emergency-w .c-emegency-list {padding-bottom: 40px;}
+.cp-ndis-1-img {margin-bottom: 40px;}
+.cp-ndis-1-con {padding: 0;}
+.cp-ndis-s2-con {padding: 20px;}
+.cp-ndis-s-list-con {margin-top: 20px;}
+.cp-ndis-s-list .cp-ndis-s-list-con h3 {font-size: 20px;}
+.cp-ndis-s-list .row .col-md-7 {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
+.cp-ndis-s-list .row .col-md-5 {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;}
+.cp-ndis-s-list {padding-bottom: 20px;}
+.cp-ndis-s-4 h3 {font-size: 30px;}
+.cp-ndis-s-4 {margin-bottom: 40px;}
+.cp-ndis-s-5 h3 {font-size: 28px;margin-bottom: 20px;}
+.cp-ndis-s-5 .accordion-button {font-size:19px;}
+.c-retreats-2 ,.c-retreats-3 {padding: 40px 0;}
+.c-retreats-3-img {margin-bottom: 20px;}
+.c-retreats-3-img img {width: 100%;}
+.cp-workshop-list-box h3 {margin-top: 20px;}
+.c-blog-sidebar-w {padding: 0;margin-top: 20px;}
+.cp-blog-w {padding: 40px 0 20px;}
+.cp-testimonial-w {padding: 50px 0 40px;}
+}
