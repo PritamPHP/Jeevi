@@ -178,6 +178,14 @@ error_reporting(0);
             </a>
           </li>
           <li class="nav-item">
+            <a href="client-intake-form-show.php" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Client intake form 
+              </p>
+            </a>
+          </li> 
+          <li class="nav-item">
             <a href="index.php" class="nav-link">
               <i class="nav-icon fas fa-lock"></i>
               <p>

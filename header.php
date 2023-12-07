@@ -198,7 +198,7 @@
                                         <span class="submenu-button"></span> 
                                         <ul class="sub-menu">
                                             <!--<li><a href="client-intake-form">Client Intake Form</a></li>-->
-                                             <li><a href="client-intake-form-new">Client Intake Form</a></li>
+                                             <li><a href="client-intake-form-new.php">Client Intake Form</a></li>
                                             <!--<li><a href="client-intake-form.php">DASS Form</a></li>
                                             <li><a href="client-intake-form.php">K10 Form</a></li>
                                             <li><a href="client-intake-form.php">Client - Therapist Feedback Form</a></li>
