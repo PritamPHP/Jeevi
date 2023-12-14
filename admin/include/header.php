@@ -186,6 +186,14 @@ error_reporting(0);
             </a>
           </li> 
           <li class="nav-item">
+            <a href="user-download-info.php" class="nav-link">
+              <i class="nav-icon fas fa-info"></i>
+              <p>
+                User Download Information
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="index.php" class="nav-link">
               <i class="nav-icon fas fa-lock"></i>
               <p>
