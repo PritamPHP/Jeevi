@@ -196,7 +196,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      
      
      
-     @media(max-width:767px){
+     @media(max-width:768px){
          #box1,#box2,#box3{
              margin-bottom:1rem;
          }
@@ -220,8 +220,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     position: relative;
     top: -538px;
 }
-
+.cards-container .card-body{
+    height:fit-content;
+}
+.cards-container .card-body{
+    height:320px;
+}
+.cards-container .row{
+    flex-direction:column;
+    gap: 30px;
+}
+.cards-container .col-md-4{
+         width: 100% !important;
+    
+}
+.cards-container .card{
+    margin: 0 20px;
+}
      }
+     
      
      
      
@@ -248,6 +265,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     position: relative;
     top: -764px;
 }
+.cards-container .card-body{
+    height:320px;
+}
+.cards-container .row{
+    flex-direction:column;
+    gap: 30px;
+}
+.cards-container .col-md-4{
+         width: 100% !important;
+    
+}
+.cards-container .card{
+    margin: 0 20px;
+}
 
      }
      
@@ -268,9 +299,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     height: 165px;
     top: 867px;
 }
+.cards-container .card-body{
+    height:320px;
+}
+.cards-container .row{
+    flex-direction:column;
+    gap: 30px;
+}
+.cards-container .col-md-4{
+         width: 100% !important;
+    
+}
+.cards-container .card{
+    margin: 0 20px;
+}
      }
      
-      @media(max-width:320px){
+      @media(max-width:322px){
          
      .home-testimonial {
     background-color: #04d9c4;
@@ -291,11 +336,83 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     height: 165px;
     top: 1121px;
 }
+.cards-container .card-body{
+    height:420px;
+}
+.cards-container .row{
+    flex-direction:column;
+    gap: 30px;
+}
+.cards-container .col-md-4{
+         width: 100% !important;
+    
+}
+.cards-container .card{
+    margin: 0 20px;
+}
 
 
      }
      
+     /*card image*/
+     .cards-container img{
+        width: 71%;
+    height: 216px;
+    object-fit: contain;
+    box-shadow: 1px 1px 6px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+     .cards-container .row{
+         display:flex;
+         justify-content:space-evenly;
+         align-item:center;
+     }
+     .cards-container .col-md-4{
+         width: 30%
+     }
+      .cards-container button{
+       width: 100%;
+    height: 32px;
+    background: #043259;
+    /* border-radius: 10px; */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: white;
+     }
+     .cards-container .card{
+         border: none;
+         display:flex;
+         align-items: center;
+     }
      
+     
+     #ct{
+         font-weight: 700;
+    color: #043259;
+    font-size: 19px;
+    text-align: center;
+     }
+     
+     #more {display: none;}
+
+#myBtn{
+	text-decoration: underline;
+    border-bottom: 1px solid #D2DCEE;
+    transition: all .3s ease;
+    color: #043259;
+    }
+    
+    @media(min-width:760px){
+        
+        #margincard{
+        margin-top:2rem;
+    }
+        
+    }
+    
      
      
      * 
@@ -1087,7 +1204,105 @@ foreach($result as $row) { ?>
 </section>
 
 
+<section class="cards-container mt-5" style="">
+    
+    <div class="container">
+        
+          <div class="row">
+    <!-- First Card -->
+    <div class="col-md-4" >
+      <div class="card">
+        <img src="https://jeevi.com.au/img/RA-course-photo-Tara-210x210-1.jpg" class="card-img-top" alt="Image 1" >
+        <div class="card-body" style="height:auto">
+          <h5 class="card-title" id="ct">Inner Healing and Empowerment $500 (10% of the Revenue would be donated to the Charity)
+</h5>
+          <p class="card-text" style="min-height: 5rem;">
+              Have you experienced childhood trauma, or any other form of trauma? <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
+          </p>
+<button> <a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
+        </div>
+      </div>
+    </div>
 
+    <!-- Second Card -->
+    <div class="col-md-4" >
+      <div class="card">
+        <img src="https://jeevi.com.au/img/Anx-Sleep-course-210x210-1.jpg" class="card-img-top" alt="Image 2"  >
+        <div class="card-body" style="height:auto">
+          <h5 class="card-title" id="ct">Enroll now for a 10 Weeks Challenge! $500  (10% of the Revenue would be donated to the Charity)</h5>
+          <p class="card-text" style="min-height: 5rem;">Revitalizing Life: A Journey to a Stronger You  <a href="Revitalizing-Life.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
+          </p>
+<button><a href="Revitalizing-Life.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Card -->
+    <div class="col-md-4" >
+      <div class="card">
+        <img src="https://jeevi.com.au/img/Tara_Jack_210X210-1.jpg" class="card-img-top" alt="Image 3" >
+        <div class="card-body" style="height:auto">
+          <h5 class="card-title" id="ct">Total Wellness Audit: Your Employee's Physical, Mental, Emotional, and Social Health in Focus, Free and Obligation-Free!
+</h5>
+          <p class="card-text" style="min-height: 4rem;">Discover how our free and obligation-free <a href="Free-and-Confidential-Assessment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a></p>
+          <button><a href="Free-and-Confidential-Assessment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- fourth Card -->
+    <div class="col-md-4" id="margincard" >
+      <div class="card">
+        <img src="https://jeevi.com.au/img/MDW-course-website-210X210.jpg" class="card-img-top" alt="Image 1" >
+        <div class="card-body" style="height:auto">
+          <h5 class="card-title" id="ct">Transforming Workplace Wellbeing for Maximum Impact</h5>
+          <p class="card-text" style="min-height: 5rem;">Unlocking the Full Potential of Your Health <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
+
+</p>
+<button><a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- fifth Card -->
+    <div class="col-md-4" id="margincard">
+      <div class="card">
+        <img src="https://jeevi.com.au/img/RAIN-Cover-IMG_3792-210x210-1.jpg" class="card-img-top" alt="Image 2" >
+        <div class="card-body" style="height:auto">
+          <h5 class="card-title" id="ct">Family Flourish - Building Strong Family Foundations </h5>
+          <p class="card-text" style="min-height: 5rem;"  >Unlock the Secrets to a Harmonious Family <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a></p>
+<button><a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+        
+    </div>
+    
+
+</section>
+
+
+<section class="cards-container mt-5">
+    
+     <div class="container">
+    
+  <div class="row" style="display:flex; justify-content:center; align-item:center">
+    <!-- First Card -->
+    
+
+    
+  </div>
+  
+  </div>
+  
+</section>
 
 
        

@@ -194,6 +194,14 @@ error_reporting(0);
             </a>
           </li>
           <li class="nav-item">
+            <a href="course.php" class="nav-link">
+              <i class="nav-icon fas fa-print"></i>
+              <p>
+              course
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="index.php" class="nav-link">
               <i class="nav-icon fas fa-lock"></i>
               <p>

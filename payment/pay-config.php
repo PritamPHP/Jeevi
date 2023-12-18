@@ -1,0 +1,30 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<?php 
+/* 
+ * PayPal and database configuration 
+ */ 
+  
+// PayPal configuration 
+define('PAYPAL_ID', 'AECCWCX25AGW2'); 
+define('PAYPAL_SANDBOX', FALSE); //TRUE or FALSE 
+ 
+define('PAYPAL_RETURN_URL', 'http://localhost:81/jeevi/payment/success.php'); 
+define('PAYPAL_CANCEL_URL', 'http://localhost:81/jeevi/payment/cancel.php'); 
+define('PAYPAL_CURRENCY', 'USD'); 
+ 
+// Database configuration 
+//local
+define('DB_HOST', 'localhost'); 
+define('DB_USERNAME', 'root'); 
+define('DB_PASSWORD', ''); 
+define('DB_NAME', 'jeevi'); 
+
+//live
+// define('DB_HOST', 'localhost'); 
+// define('DB_USERNAME', 'visaf452_jeevi'); 
+// define('DB_PASSWORD', 'o)lk=RemY6W3'); 
+// define('DB_NAME', 'visaf452_jeevi');
+
+ 
+// Change not required 
+define('PAYPAL_URL', (PAYPAL_SANDBOX == true)?"https://www.sandbox.paypal.com/cgi-bin/webscr":"https://www.paypal.com/cgi-bin/webscr");
