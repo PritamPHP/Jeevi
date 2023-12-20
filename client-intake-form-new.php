@@ -80,12 +80,18 @@ use PHPMailer\PHPMailer\Exception;
         // recaptcha check
         if (isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-response'])) {
 
-            $secretKey = "6LfwGCkpAAAAACn80tA87N4-18gD7xuvtC8eclfr";
-
-            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_REQUEST['g-recaptcha-response']);
-
-            // Decode JSON data of API response 
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, [
+                'secret' => $secretKey,
+                'response' => $_REQUEST['g-recaptcha-response']
+            ]);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $verifyResponse = curl_exec($ch);
+            curl_close($ch);
             $responseData = json_decode($verifyResponse);
+
 
             // If the reCAPTCHA API response is valid 
             if (!$responseData->success) {
@@ -434,7 +440,7 @@ use PHPMailer\PHPMailer\Exception;
                                 </div>
                             </div>
 
-                            <div class="g-recaptcha" data-sitekey="6LfwGCkpAAAAAFPkFI2jYfiSu-kiZwM_8fmyOjyL"></div>
+                            <div class="g-recaptcha" data-sitekey="<?php echo $sitekey; ?>"></div>
 
                             <span class="text-danger">
                                 <?php

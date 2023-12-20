@@ -44,5 +44,14 @@ mysqli_set_charset($conn,"utf8");
 	}
 }
 $db_handle = new DBController();
+
+// reCAPTCHA
+// local
+$sitekey = "6LfwGCkpAAAAAFPkFI2jYfiSu-kiZwM_8fmyOjyL";
+$secretKey = "6LfwGCkpAAAAACn80tA87N4-18gD7xuvtC8eclfr";
+// Jeevi 
+// $sitekey = "6Lf0QzYpAAAAAJZLBiR-Um4fHnTnDFT5bRjYuSwp";
+// $secretKey = "6Lf0QzYpAAAAALfMpZVolplBjRH4Sx8lonJgQnuM";
+
 // $site_mail = "mgsroyalein@gmail.com";
 ?>

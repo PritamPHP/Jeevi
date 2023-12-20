@@ -194,10 +194,10 @@ error_reporting(0);
             </a>
           </li>
           <li class="nav-item">
-            <a href="course.php" class="nav-link">
+            <a href="booking.php" class="nav-link">
               <i class="nav-icon fas fa-print"></i>
               <p>
-              course
+              Booking
               </p>
             </a>
           </li>
