@@ -50,8 +50,8 @@ $db_handle = new DBController();
 $sitekey = "6LfwGCkpAAAAAFPkFI2jYfiSu-kiZwM_8fmyOjyL";
 $secretKey = "6LfwGCkpAAAAACn80tA87N4-18gD7xuvtC8eclfr";
 // Jeevi 
-// $sitekey = "6Lf0QzYpAAAAAJZLBiR-Um4fHnTnDFT5bRjYuSwp";
-// $secretKey = "6Lf0QzYpAAAAALfMpZVolplBjRH4Sx8lonJgQnuM";
+// $sitekey = "6LfwGCkpAAAAAFPkFI2jYfiSu-kiZwM_8fmyOjyL";
+// $secretKey = "6LfwGCkpAAAAACn80tA87N4-18gD7xuvtC8eclfr";
 
 // $site_mail = "mgsroyalein@gmail.com";
 ?>

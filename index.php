@@ -388,12 +388,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          align-items: center;
      }
      
+      #ctt{
+         font-weight: 700;
+    color: #043259;
+    font-size: 25px;
+    text-align: center;
+     }
      
      #ct{
          font-weight: 700;
     color: #043259;
     font-size: 19px;
     text-align: center;
+     }
+     
+     #cb{
+        height:auto;
+     }
+     
+     #cb1{
+         height:auto;
+     }
+     
+     @media(min-width:768px){
+         #cb{
+             min-height:250px
+         }
+         
+         #cb1{
+             min-height:200px
+         }
      }
      
      #more {display: none;}
@@ -1212,73 +1236,77 @@ foreach($result as $row) { ?>
     <!-- First Card -->
     <div class="col-md-4" >
       <div class="card">
-        <img src="https://jeevi.com.au/img/RA-course-photo-Tara-210x210-1.jpg" class="card-img-top" alt="Image 1" >
-        <div class="card-body" style="height:auto">
-          <h5 class="card-title" id="ct">Inner Healing and Empowerment $500 (10% of the Revenue would be donated to the Charity)
+        <img src="https://jeevi.com.au/img/Inner Healing and Empowerment.jpeg" class="card-img-top" alt="Image 1" >
+        <div class="card-body" id="cb" >
+            <h3 class="card-title" id="ctt">Inner Healing and Empowerment</h3>
+          <h5 class="card-title" id="ct">$500 (10% of the Revenue would be donated to the Charity)
 </h5>
           <p class="card-text" style="min-height: 5rem;">
               Have you experienced childhood trauma, or any other form of trauma? <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
           </p>
-<button> <a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
-    color: white;" target="_blank">Book Now</a></button>
         </div>
+        <button> <a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
       </div>
     </div>
 
     <!-- Second Card -->
     <div class="col-md-4" >
       <div class="card">
-        <img src="https://jeevi.com.au/img/Anx-Sleep-course-210x210-1.jpg" class="card-img-top" alt="Image 2"  >
-        <div class="card-body" style="height:auto">
-          <h5 class="card-title" id="ct">Enroll now for a 10 Weeks Challenge! $500  (10% of the Revenue would be donated to the Charity)</h5>
+        <img src="https://jeevi.com.au/img/Revitalizing Life A Journey to a Stronger You.jpeg" class="card-img-top" alt="Image 2"  >
+        <div class="card-body"id="cb" >
+              <h3 class="card-title" id="ctt">Revitalizing Life: A Journey to a Stronger You</h3>
+          <h5 class="card-title" id="ct">$500  (10% of the Revenue would be donated to the Charity)</h5>
           <p class="card-text" style="min-height: 5rem;">Revitalizing Life: A Journey to a Stronger You  <a href="Revitalizing-Life.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
           </p>
-<button><a href="Revitalizing-Life.php"  style="cursor: pointer;text-decoration: none;
-    color: white;" target="_blank">Book Now</a></button>
         </div>
+        <button><a href="Revitalizing-Life.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
       </div>
     </div>
 
     <!-- Third Card -->
     <div class="col-md-4" >
       <div class="card">
-        <img src="https://jeevi.com.au/img/Tara_Jack_210X210-1.jpg" class="card-img-top" alt="Image 3" >
-        <div class="card-body" style="height:auto">
-          <h5 class="card-title" id="ct">Total Wellness Audit: Your Employee's Physical, Mental, Emotional, and Social Health in Focus, Free and Obligation-Free!
+        <img src="https://jeevi.com.au/img/Total Wellness Audit.jpeg" class="card-img-top" alt="Image 3" >
+        <div class="card-body" id="cb" >
+             <h3 class="card-title" id="ctt">Total Wellness Audit</h3>
+          <h5 class="card-title" id="ct">Your Employee's Physical, Mental, Emotional, and Social Health in Focus, Free and Obligation-Free!
 </h5>
           <p class="card-text" style="min-height: 4rem;">Discover how our free and obligation-free <a href="Free-and-Confidential-Assessment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a></p>
-          <button><a href="Free-and-Confidential-Assessment.php"  style="cursor: pointer;text-decoration: none;
-    color: white;" target="_blank">Book Now</a></button>
+          
         </div>
+        <button><a href="Free-and-Confidential-Assessment.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
       </div>
     </div>
     
     <!-- fourth Card -->
     <div class="col-md-4" id="margincard" >
       <div class="card">
-        <img src="https://jeevi.com.au/img/MDW-course-website-210X210.jpg" class="card-img-top" alt="Image 1" >
-        <div class="card-body" style="height:auto">
-          <h5 class="card-title" id="ct">Transforming Workplace Wellbeing for Maximum Impact</h5>
-          <p class="card-text" style="min-height: 5rem;">Unlocking the Full Potential of Your Health <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
+        <img src="https://jeevi.com.au/img/Transforming Workplace Wellbeing.jpeg" class="card-img-top" alt="Image 1" >
+        <div class="card-body" id="cb1">
+             <h3 class="card-title" id="ctt">Transforming Workplace Wellbeing</h3>
+          <p class="card-text" style="min-height: 5rem;">for Maximum Impact-Unlocking the Full Potential of Your Health <a href="Transforming-Workplace-Wellbeing.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a>
 
 </p>
-<button><a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
-    color: white;" target="_blank">Book Now</a></button>
         </div>
+        <button><a href="Transforming-Workplace-Wellbeing.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
       </div>
     </div>
 
     <!-- fifth Card -->
     <div class="col-md-4" id="margincard">
       <div class="card">
-        <img src="https://jeevi.com.au/img/RAIN-Cover-IMG_3792-210x210-1.jpg" class="card-img-top" alt="Image 2" >
-        <div class="card-body" style="height:auto">
-          <h5 class="card-title" id="ct">Family Flourish - Building Strong Family Foundations </h5>
-          <p class="card-text" style="min-height: 5rem;"  >Unlock the Secrets to a Harmonious Family <a href="Inner-Healing-and-Empowerment.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a></p>
-<button><a href="Inner-Healing-and-Empowerment.php"  style="cursor: pointer;text-decoration: none;
-    color: white;" target="_blank">Book Now</a></button>
+        <img src="https://jeevi.com.au/img/Family Flourish.jpeg" class="card-img-top" alt="Image 2" >
+        <div class="card-body" id="cb1" >
+             <h3 class="card-title" id="ctt">Family Flourish</h3>
+          <p class="card-text" style="min-height: 5rem;"  > Building Strong Family Foundations -Unlock the Secrets to a Harmonious Family <a href="Building-Strong-Family-Foundations.php" id="myBtn" style="cursor: pointer;" target="_blank">Learn More...</a></p>
         </div>
       </div>
+      <button><a href="Building-Strong-Family-Foundations.php"  style="cursor: pointer;text-decoration: none;
+    color: white;" target="_blank">Book Now</a></button>
     </div>
     
   </div>

@@ -42,7 +42,7 @@ use PHPMailer\PHPMailer\Exception;
 
   <div class="min-h-screen flex flex-col items-center justify-center">
     <div class="w-full relative flex justify-end">
-      <img src="./img/inner heading.png" class="w-full h-[90vh] sm:h-[70vh]  lg:h-[60vh] object-cover"
+      <img src="./img/Inner Healing and Empowerment cover.jpeg" class="w-full h-[90vh] sm:h-[70vh]  lg:h-[60vh] object-cover"
         alt="Course Image">
       <div class="absolute top-1/2 transform -translate-y-1/2  flex flex-col justify-start items-start text-white p-8">
         <h2 class="text-2xl md:text-5xl font-bold mb-4">Inner Healing and Empowerment $500 (10% of the Revenue would be

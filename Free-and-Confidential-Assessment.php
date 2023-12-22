@@ -40,37 +40,15 @@ use PHPMailer\PHPMailer\Exception;
 
      
     <div class="min-h-screen flex flex-col items-center justify-center">
-    <div class="w-full relative flex justify-end">
-      <img src="./img/inner heading.png" class="w-full h-[90vh] sm:h-[70vh]  lg:h-[60vh] object-cover" alt="Course Image">
+    <div class="w-full relative flex justify-start">
+      <img src="./img/Total Wellness Audit cover.jpeg" class="w-full h-[90vh] sm:h-[70vh]  lg:h-[60vh] object-cover" alt="Course Image">
       <div class="absolute top-1/2 transform -translate-y-1/2  flex flex-col justify-start items-start text-white p-8">
         <h2 class="text-2xl md:text-5xl font-bold mb-4">Free and Confidential Assessment for YOUR Employees</h2>
         <p class=" text-lg sm:text-xl font-semiold">Effective Management recognizes the importance of supporting employees in their mental health and holistic wellbeing. Why?
         </p>
         <div class="mt-4 w-full flex flex-col md:flex-row justify-center items-center md:justify-start">
 
-        <?php
-          include_once './payment/pay-config.php';
-          ?>
-
-          <form action="<?php echo PAYPAL_URL; ?>" method="post" id="paypal_form">
-            <input type="hidden" name="business" value="<?php echo PAYPAL_ID; ?>">
-
-            <input type="hidden" value="500" name="amount" id="amount">
-
-            <input type="hidden" name="currency_code" value="<?php echo PAYPAL_CURRENCY; ?>">
-
-            <!-- Specify a Buy Now button. -->
-            <input type="hidden" name="cmd" value="_xclick">
-            <!-- Specify URLs -->
-            <input type="hidden" name="return" value="<?php echo PAYPAL_RETURN_URL; ?>">
-            <input type="hidden" name="cancel_return" value="<?php echo PAYPAL_CANCEL_URL; ?>">
-            <br><br>
-            <!-- Display the payment button. -->
-            <!-- <input type="submit" name="submit" border="0" value="Paid"> -->
-            <button type="submit"
-              class="w-full md:w-auto bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0 md:mr-2">Enroll
-              Now : $500</button>
-          </form>
+         <a href="Book-now-form.php"><button class="w-full md:w-auto bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded sm:mb-2 md:mb-0 md:mr-2">Enroll Now</button></a>
 
           <!-- <button class="w-full md:w-auto bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded sm:mb-2 md:mb-0 md:mr-2">Enroll Now : $500</button> -->
           <!-- <button class="w-full md:w-auto bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">Gift this course to a friend</button>-->
