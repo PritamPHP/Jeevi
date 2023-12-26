@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 ?>
 
 <head>
-    <title>Enter Your Details to Enroll | JEEVI</title>
+    <title>Enter Your Details to Book Now | JEEVI</title>
     <meta name="description"
         content="JEEVI's client intake form is the first step towards getting the personalized and efficient services you need. Fill out the form online and let's get started!">
 
@@ -60,14 +60,14 @@ use PHPMailer\PHPMailer\Exception;
     <?php
 
 
-    $host = "localhost";
-    $user = "visaf452_jeevi";
-    $password = "o)lk=RemY6W3";
-    $dbname = "visaf452_jeevi";
     // $host = "localhost";
-    // $user = "root";
-    // $password = "";
-    // $dbname = "jeevi";
+    // $user = "visaf452_jeevi";
+    // $password = "o)lk=RemY6W3";
+    // $dbname = "visaf452_jeevi";
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $dbname = "jeevi";
     $conn = mysqli_connect($host, $user, $password, $dbname);
     // session_start();
     
@@ -79,7 +79,7 @@ use PHPMailer\PHPMailer\Exception;
 
         // recaptcha check
         if (isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-response'])) {
-    
+
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
             curl_setopt($ch, CURLOPT_POST, 1);
@@ -206,7 +206,7 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->setFrom('info@jeevi.com.au', 'Jeevi');
                     $mail->addAddress($toemail);
                     $mail->isHTML(true);
-                    $mail->Subject = 'Confirmation Mail';
+                    $mail->Subject = 'Book Now - Confirmation Mail';
                     $mail->Body = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Jeevi</title><!-- google fonts --><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link  href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"  rel="stylesheet"/><!-- google icons --><link  rel="stylesheet"  href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"/><style>  * {    margin: 0;    padding: 0;  }  h1,  h2 {    margin-bottom: 1rem;  }  p {    line-height: 22px;    margin-bottom: 1rem;  }  .border-bottom td,  th {    border-bottom: 1px solid #a5a7a9;    th,td {  text-align: left;  padding: 22px 8px;}.container {  width: 100%;  margin-right: auto;  margin-left: auto;}@media (max-width: 430px) {  table h3,  table p {    font-size: 12px !important;  }}@media (min-width: 576px) {  .container {    max-width: 540px;  }}@media (min-width: 768px) {  .container {    max-width: 720px;  }}@media (min-width: 992px) {  .container {    max-width: 960px;  }@media (min-width: 1200px) {  .container {    max-width: 1140px;  }}@media (min-width: 1400px) {  .container {    max-width: 1320px;  }}</style></head><body style="font-family: \'Raleway\', sans-serif; overflow-x: hidden">  <header>    <div style="background-color: #f7f9fc">      <div style="text-align: center; padding: 0.5rem">        <img        src="https://jeevi.com.au/logo.png"          alt="jeevi"          style="height: 90px; width: 200px; margin: 30px 0px 20px"        />      </div>    </div>  </header>  <main>    <div class="container" style="    display: flex;    justify-content: center;padding-top: 1rem;">      <div>                                <div          style="            max-width: 500px;            margin-bottom: 2rem;            padding: 20px;            border-radius: 8px;            background: #1473cc0d;          "        >          <h2 style="text-align: center;">Client Intake form  Information</h2>          <table style="width: 100%">                        <tr>              <td><strong>Full Name:</strong></td>              <td>' . $full_name . '</td>          </tr>          <tr>              <td><strong>Company Name:</strong></td>              <td>' . $company_name . '</td>          </tr>          <tr>              <td><strong>Position/Role:</strong></td>              <td>' . $company_role . '</td>          </tr>          <tr>              <td><strong>Department</strong></td>              <td>' . $department . '</td>          </tr>          <tr>              <td><strong>Number of Employees in Your Company:</strong></td>              <td>' . $number_of_company . '</td>          </tr>          <tr>              <td><strong>time contact:</strong></td>              <td>' . $time_contact . '</td>          </tr>          <tr>              <td><strong>company website:</strong></td>              <td>' . $company_website . '</td>          </tr>          <tr>              <td><strong>working email:</strong></td>              <td>' . $working_email . '</td>          </tr>  <tr>              <td><strong>phone no:</strong></td>              <td>' . $phone_number . '</td>          </tr>           </table>        </div>    <br><p><b>Do You Currently Have an Employee Wellbeing Program in Place? </b></p> <br>
                         <p>' . $employee_wellbeing . '</p><br>  <br><p><b>Identified Needs in Your Company/Business : </b></p> <br>
                         <p>' . $identified_company . '</p><br>  <br><p><b>Expectations and Objectives from JEEVI Mental Health & Holistic Wellbeing Services :</b></p> <br>
